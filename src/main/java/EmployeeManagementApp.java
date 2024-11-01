@@ -101,7 +101,7 @@ public class EmployeeManagementApp extends Application {
 class DatabaseHelper {
     private static final String DB_URL = "jdbc:mariadb://localhost:3306/db_localization";
     private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "Uixu4iso";
+    private static final String DB_PASSWORD = "";
 
     public void insertEmployee(String tableName, String firstName, String lastName, String email) {
         String query = "INSERT INTO " + tableName + " (first_name, last_name, email) VALUES (?, ?, ?)";
